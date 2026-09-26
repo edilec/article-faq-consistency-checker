@@ -1,0 +1,1 @@
+{"schemaVersion":"1","complete":true,"articles":[{"id":"article-a","text":"2030-01-01"}],"faqs":[{"id":"faq-a","articleId":"article-a","question":"When?","answer":"2030-01-01","review":"supported","claims":[{"kind":"date","answerSpan":{"start":0,"end":10},"articleSpan":{"start":0,"end":10}}]}]}

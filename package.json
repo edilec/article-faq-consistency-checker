@@ -1,0 +1,19 @@
+{
+  "name": "article-faq-consistency-checker",
+  "version": "1.0.0",
+  "description": "Compare article FAQ answers with the claims and scope of the article.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "lint": "node --check src/index.mjs && node --check bin/article-faq-consistency-checker.mjs",
+    "test": "node --test",
+    "check": "npm run lint && npm test"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edilec/article-faq-consistency-checker"
+  }
+}
